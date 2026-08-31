@@ -35,7 +35,6 @@ jobs:
       - name: Construir aplicación web
         run: |
           flet build web \
-            --module-name app.py \
             --base-url /taller-bits/ \
             --route-url-strategy hash \
             --yes
